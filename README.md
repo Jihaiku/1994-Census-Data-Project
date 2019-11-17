@@ -5,7 +5,7 @@
 ## Introduction
 Today we're going to be looking over a dataset created by Barry Becker pertaining to the 1994 Census for the United States.
 
-Purpose
+### Purpose
 What we're going to be figuring out with it initially is whether or not that people make over $50,000 or under that per year with the information that we obtain with the initial data. This will help us provide answers to our hypothetical employee-the government-to better tax the people by predicting their tax brackets based on their information. Which in turn may help them through more knowledgable tax policies.
 
 ## Here are some of my findings:
@@ -43,14 +43,14 @@ Can we predict whether or not someone made over $50,000 or under that per year w
 
 Whew we're done with the Gridsearch CV and have gotten to the final part of our journey. We have cleaned up several edge case variables out of the processing phase and managed to make our final results better than what they were when many variables were highly correlated (most of which we retroactively cut out so not to make this several dozen lines longer).
 
-## Recommendation
+### Recommendation
 Given that we are 85% correct with a fairly higher Recall over Precison after extensive processing let's provide our recommendation on what is currently completed.
 
 1. We shoulf focus on either marital status or relationship but having both within the test make our ability to determine correct results harder.
 2. Capital gains and capital loss do very little for our model as separate columns but could be better if we use them as a single one.
 3. We should provide proper labeling for unemployed, never worked, and so on so their data can remain in the model instead of needing to be dropped for no proper labels.
 
-## Next Steps
+### Next Steps
 With any project there are constraints found within it that we could have worked on or improved to make the test better overall. I think that there are a few optional items that given enough time I would add to this project. Those options are:
 1. Perform a different machine learning algorithm with the same goal.
 2. Use different feature engineering methods to improve our performance scores.
