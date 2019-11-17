@@ -13,17 +13,25 @@ What we're going to be figuring out with it initially is whether or not that peo
 One of the first things we see after cleaning up the data is that there are very few officially recognized categories of ethnicities which you wouldn't particularly see in a more modern day US Census. The ramnifications of this on our census data is that either our data has Hispanic, Asian descent, or Two or more races all being put into Other, they're mixed into the other groups, or they were just not accounted for. Of which none of those answers seem to be ideal and do throw some shades of grey upon the accuracy of our data.
 
 <br>
+
 ![Age x race](https://user-images.githubusercontent.com/48660919/69014811-26c04f00-095c-11ea-999e-5e3d958bc9c4.PNG)
+
+<br>
 
 Another interesting point is that while divorce is present in the dataset, many people who filled out as Divored/Separated, Never-married, and widowed were primarily between groups 2 and 5 of education which are 2: Middle School Grad, 3: High School Grad, 4: Some college, and 5: Undergraduate. Whereas the married category had a much wider spread that went all the way to 7: Doctorate. While the knee jerk reaction is to say that less educated people tend to not remain or get married, I think this moreso has to do with the census data weighing more towards having people from the Silent Era and Early Baby Boomer era not necessarily requiring a higher education than you would see in the 21st century. On top of that the categories outside of married may have some correlation to more older people or very young people which would also make sense for the education types that they have listed. 
 
 <br>
+
 ![Martial status x education](https://user-images.githubusercontent.com/48660919/69014817-2fb12080-095c-11ea-8650-9bbdf402ef54.PNG)
+
+<br>
 
 With over 25 year old data, this visualization interested me the most becasue I had a misconception that the categories would be skewed in several more ways than what it came out to be. Almost every group had a majority of their applicants being between 2 and 5, which are middle school graduate and college undergraduate with the exception of Asian-Pacific Islander ranging from Elementary School graduate to docorate. This visualization does more with what it doesn't show than what it does show, and that is the sign that education in 1994 was fairly spread out amongst the people in the area that this survey was taken.
 <br>
 
 ![Education x race](https://user-images.githubusercontent.com/48660919/69014815-2d4ec680-095c-11ea-9a81-7727ab932cb0.PNG)
+
+<br>
 
 Question from the beginning:
 Can we predict whether or not someone made over $50,000 or under that per year with the information that we have?
